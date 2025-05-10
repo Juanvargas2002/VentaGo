@@ -40,7 +40,7 @@
     </li>
     <?php } ?>
 
-    <!-- Nav Item - Ventas Collapse Menu -->
+    <!-- Nav Item - Ventas Collapse Menu
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
             aria-expanded="true" aria-controls="collapseUtilities">
@@ -55,7 +55,7 @@
                 <a class="collapse-item" href="<?= SERVER_URL; ?>ventas/">Listado de Ventas</a>
             </div>
         </div>
-    </li>
+    </li>-->
 
     <?php if ($_SESSION['rol_usuario'] == "Administrador") { ?>
     <!-- Nav Item - Categorias collapse Menu -->
@@ -72,6 +72,7 @@
                 <a class="collapse-item" href="<?= SERVER_URL; ?>categorias/">Listado de Categorías</a>
             </div>
         </div>
+        </li>
 
     <!-- Nav Item - Productos collapse Menu-->
     <li class="nav-item">
@@ -87,6 +88,7 @@
                 <a class="collapse-item" href="<?= SERVER_URL; ?>productos/">Listado de Productos</a>
             </div>
         </div>
+        </li>
     
     <!-- Nav Item - Proveedores collapse Menu-->
     <li class="nav-item">
@@ -102,6 +104,7 @@
                 <a class="collapse-item" href="<?= SERVER_URL; ?>proveedores/">Listado de Proveedores</a>
             </div>
         </div>
+        </li>
 
     <!-- Nav Item - Usuarios collapse Menu-->
     <li class="nav-item">
@@ -117,6 +120,7 @@
                 <a class="collapse-item" href="<?= SERVER_URL; ?>usuarios/">Listado de Usuarios</a>
             </div>
         </div>
+        </li>
     <?php } ?>
 
     <!-- Divider -->
